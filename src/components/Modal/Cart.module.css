@@ -1,0 +1,43 @@
+.list-item {
+  list-style-type: none;
+  border-bottom: solid 2px maroon;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.cancel {
+  padding: 0.5rem 2.5rem;
+  background-color: transparent;
+  border: solid 2px maroon;
+  color: maroon;
+  margin-right: 0.75rem;
+}
+
+.order {
+  padding: 0.5rem 2.5rem;
+  background-color: maroon;
+  border: solid 2px maroon;
+  color: whitesmoke;
+}
+
+.cancel:hover {
+  background-color: maroon;
+  color: whitesmoke;
+}
+
+.order:hover {
+  background-color: rgb(73, 0, 0);
+}

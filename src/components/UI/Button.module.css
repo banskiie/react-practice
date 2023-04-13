@@ -1,0 +1,8 @@
+.button {
+  font: inherit;
+  padding: 0 3rem;
+  border-radius: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}

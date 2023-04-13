@@ -1,0 +1,19 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.main img {
+  margin-top: -4rem;
+  rotate: -4deg;
+  transform: scale(1.1);
+  padding: 0;
+  height: 40vh;
+  width: 100%;
+  object-fit: cover;
+  z-index: -10;
+}

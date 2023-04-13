@@ -1,0 +1,11 @@
+.content-box {
+  background-color: #3f3f3f;
+  margin: 0 2rem;
+  margin-top: -10rem;
+  max-width: 48rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}

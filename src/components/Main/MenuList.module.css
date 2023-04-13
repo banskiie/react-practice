@@ -1,0 +1,13 @@
+.menu-items {
+  background-color: #3f3f3f;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  color: #252525;
+}
+
+.menu-items ul {
+  list-style-type: none;
+}

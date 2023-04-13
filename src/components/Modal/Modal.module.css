@@ -1,0 +1,58 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  min-width: 48rem;
+  min-height: 16rem;
+  background-color: white;
+  z-index: 200;
+  padding: 2rem;
+}
+
+.empty {
+  position: fixed;
+  min-width: 48rem;
+  min-height: 16rem;
+  background-color: white;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty h1 {
+  margin: 2rem;
+}
+
+.empty-btn {
+  background-color: maroon;
+  color: whitesmoke;
+  width: 7rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.empty-btn:hover {
+  background-color: pink;
+  color: #3f3f3f;
+}
